@@ -29,10 +29,10 @@ At Scrimba our goal is to create the best possible coding school at the cost of 
 
 #### Desktop 📸
 
-![Unit Converter starting state](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/unit-converter-rest.png)
+![Champions starting state](https://raw.githubusercontent.com/gabmartires/SoloProject-Champions/master/assets/images/Champions-empty.png)
 
 ### Mobile 📸
-![Unit Converter Results](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/unit-converter-results.png)
+![Champions Results](https://raw.githubusercontent.com/gabmartires/SoloProject-Champions/master/assets/images/Champions.png)
 
 
 ### Links
