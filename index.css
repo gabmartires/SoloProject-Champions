@@ -106,13 +106,6 @@ img {
     font-size: 16px;
 }
 
-.input:active {
-    border-color: #28A9F1;
-}
-.input:focus {
-    border-color: white;
-}
-
 #messagebox-el {
     color: white;
     font-size: 16px;
@@ -120,19 +113,13 @@ img {
     line-height: 1.815;
     padding: 0.25em 0.5em;
     margin: 6px 3px 6px 3px;
+    border: none;
     background-color: #444059;
     border-radius: 8px;
 }
 
 #messagebox-el::placeholder {
     font-size: 16px;
-}
-
-#messagebox-el:active {
-    border-color: #28A9F1;
-}
-#messagebox-el:focus {
-    border-color: white;
 }
 
 textarea {
@@ -155,6 +142,9 @@ textarea {
 #publish-btn:hover {
     background-color: #2bb5ff;
 }
+#endorsements {
+    list-style: none;
+}
 
 #comments-el {
     border-bottom: 18px solid #1B1924;
@@ -164,18 +154,24 @@ textarea {
     flex-wrap: wrap-reverse;   
 }
 
-#comments-el p { 
+#comments-el li { 
     width: 300px;   
     flex-grow: 1;
-    margin: 2px 0px 2px 0px;    
+    
+    border-bottom: 15px solid #1B1924;    
+}
+
+#comments-el p {
     font-family: "Inter", sans-serif;
     padding: 0px 10px 0px 10px;
+    margin: 0px;
     font-size: 16px;
     line-height: 1.3;
     color: #333;
 }
 
-.likes {
+
+#likes {
     display: flex;
     margin-left: auto;   
 }
