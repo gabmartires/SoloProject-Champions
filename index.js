@@ -78,7 +78,7 @@ function appendComment(message, commentText, fromElText, toElText, newLikes ) {
 
     let newlikesEl = document.createElement("div")
     newlikesEl.id = 'likes'
-    newlikesEl.innerHTML = `<button id="likes-btn">💜</button>`
+    newlikesEl.innerHTML = `<button id="likes-btn"><i class="fa-solid fa-heart"></i></button>`
     
     let newLikesCounter = document.createElement("div")
     newLikesCounter.id = 'likes-counter'

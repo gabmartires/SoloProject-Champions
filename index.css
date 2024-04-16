@@ -180,14 +180,14 @@ textarea {
 #likes-btn {
     display: inline-block;
     border: none;
-    width: 32px;
+    width: 28px;
     background-color: white;
-    color: #8276bf;   
+    color: #7761e4;   
     font-family: "Josefin Sans", sans-serif; 
 }
 
 #likes-btn:hover {
-    color: #9a8be4;    
+    color: #6042f5;    
 }
 
 #likes-counter {
