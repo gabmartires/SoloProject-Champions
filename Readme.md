@@ -13,7 +13,7 @@
 - [My Projects](#my-projects)
 
 ## Overview
-This is my third Solo Project from Scrimba! The task was to get familiar with the "OnClick" button execution method. The Unit converter is intended to convert any number into Length, Mass, and Volume from the Imperial to the Metric System. I'm sure my approach wasn't the best but after a week I was able to make it work and improve on it.
+This is my fourth Solo Project from Scrimba! The task was to create an endorsing app to improve morale at a company. The We Are The Champions App is intended to post comments. The adiitional goals include a to and from fields as well as a like button. The like button feature is supposed to be liked once per user. I tried but I just couldn't make it worked as Scrimbra required it.
 
 ## About Scrimba
 
@@ -37,7 +37,7 @@ At Scrimba our goal is to create the best possible coding school at the cost of 
 
 ### Links
 
-- 🌍 [Live](https://scrimba-gm-unitconverter.netlify.app/)
+- 🌍 [Live](https://scrimba-gm-champions.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,8 @@ At Scrimba our goal is to create the best possible coding school at the cost of 
 - CSS3
 - JavaScript
 - VS Code
+- Scrimba Code Editor
+- Firebase
 
 ### Built With
 
@@ -56,11 +58,11 @@ At Scrimba our goal is to create the best possible coding school at the cost of 
 
 ### My JS Jurney
 
-- I learn to keep the button "OnClick" actions on the JS side.
-- I discovered that converting a string to a number data type can be difficult
-- I got familiar with the .value properties.
-- Replacing the lenghty list of variables and math operations with Loop is a great feeling. 
-- I realize that cleaner code is much better. 
+- I learnt about Firebase and conneting a JS project to a Database Environment.
+- I created a small form and got famiar with the addEventListener method that sends adquired data into the backend Database
+- I was able to create a loop to get information out of the database. 
+- I learnt how to create a function while running a parameter so can be excecuted inside a separate function. 
+- I got familiar with creating HTML markup with the append method. 
 
 ### My Projects
 -👦🏽 GitHub [GabMartires](https://github.com/gabmartires)
