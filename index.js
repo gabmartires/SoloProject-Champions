@@ -14,13 +14,7 @@ const inputFromEl = document.getElementById("input-from")
 const inputToEl = document.getElementById("input-to")
 const publishBtnEl = document.getElementById("publish-btn")
 
-const comments = document.getElementById("comments")
 const commentEl = document.getElementById("comments-el")
-const commentFromEl = document.getElementById("from-el")
-const commentToEl = document.getElementById("to-el")
-const likesEl = document.getElementById("likes")
-const likesBtn = document.getElementById("likes-btn")
-const likesCounterEl = document.getElementById("likes-counter")
 
 publishBtnEl.addEventListener("click", function() {    
     let message = {
@@ -44,7 +38,7 @@ onValue(endorsementInDB, function(snapshot) {
             for( let i = 0; i < comments.length; i++) {
             let currentComment = comments[i]
             let currentCommentValue = currentComment[1] 
-// Reasigning the currentComment variable allows me to use the dot notation to separate the message from the From and To inputs.                      
+// Reassigning the currentComment variable allows me to use the dot notation to separate the message from the From and To inputs.                      
             let comment = currentCommentValue.endorsement
             let commentFrom = currentCommentValue.inputFrom
             let commentTo = currentCommentValue.inputTo
@@ -103,13 +97,11 @@ function appendComment(message, commentText, fromElText, toElText, newLikes ) {
     newLikesCounter.innerHTML = count    
  // push(likeslocationInDB, newCountEl)
  // } 
-        
     })
     
     //This section of the funtion grabs the comment ID and remove it from the DB 
-    newCommentEl.addEventListener("dblclick", function() {
+    newMessage.addEventListener("dblclick", function() {
       let messagelocationInDB = ref(database, `endorsement/comment/${mssgID}`)
-        remove(messagelocationInDB)   
-    
+        remove(messagelocationInDB)      
     })  
 }

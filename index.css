@@ -46,7 +46,8 @@ h3 {
     font-family: "Josefin Sans", sans-serif;
     font-size: .8em;
     color: #333;
-    padding: 10px;    
+    padding: 10px; 
+    user-select: none;   
 }
 
 
@@ -196,4 +197,5 @@ textarea {
     font-family: "Josefin Sans", sans-serif;    
     font-size: 18px;
     font-weight: 600;
+    user-select: none;
 }
